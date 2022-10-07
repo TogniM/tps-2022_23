@@ -20,6 +20,7 @@ namespace tps_form_test
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Ecco il primo esempio");
+            textBox1.Text = "Inserisci il tuo nome";
         }
     }
 }
